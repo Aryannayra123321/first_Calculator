@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+h2{
+  height: 13vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer{
+  height: 80vh;
+  width: 22vw;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid orange;
+  border-radius: 5%;
+}
+
+.row0{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.upper{
+  height: 65%;
+  width: 95.2%;
+  background-color: white;
+  border: 5px solid black;
+  border-top-right-radius: 8%;
+  border-top-left-radius: 8%;
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: right;
+  word-wrap: break-word;
+}
+.lower{
+  height: 30%;
+  width: 95.2%;
+  background-color: white;
+  border: 5px solid black;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  font-size: large;
+  text-align: right;
+  word-wrap: break-word;
+}
+.button{
+  width: 22%;
+  border-radius: 15%;
+  border: none;
+  font-size: large;
+}
+.row1{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.row2{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.row3{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.row4{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.row5{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#reset{
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#but{
+  width: 150px;
+  border: 2px solid orange;
+}
