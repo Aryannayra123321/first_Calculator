@@ -28,7 +28,7 @@ b.forEach((button)=>{
             u.innerHTML=eval(l.innerHTML);
         }
         else if(t=='()'){
-            if (u.textContent.endsWith('+') || u.innerHTML.endsWith('-') || u.innerHTML.endsWith('*') || u.innerHTML.endsWith('/') || u.innerHTML.endsWith('%') || u.textContent.endsWith('(')){
+            if (u.textContent.endsWith('+') || u.innerHTML.endsWith('-') || u.innerHTML.endsWith('*') || u.innerHTML.endsWith('/') || u.innerHTML.endsWith('%') || u.textContent.endsWith('(') || u.textContent == ''){
                 u.innerHTML=u.innerHTML+'(';
                 c++;
             }
