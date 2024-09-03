@@ -13,8 +13,15 @@ b.forEach((button)=>{
         }
         else if(t=='+' || t=='-' || t=='*' || t=='/' || t=='%'){
             if(u.innerHTML==""){
-                u.innerHTML="Not Supported";
-                setTimeout(()=>{u.innerHTML=""},500);
+                if (t !== '-')
+                {
+                    u.innerHTML = "Not Supported";
+                    setTimeout(() => {
+                        u.innerHTML = "";
+                    }, 500);
+                } else {
+                    u.innerHTML = u.innerHTML + t;
+                }
             }
             else if (u.textContent.endsWith('+') || u.innerHTML.endsWith('-') || u.innerHTML.endsWith('*') || u.innerHTML.endsWith('/') || u.innerHTML.endsWith('%')){
                 u.innerHTML=u.innerHTML.slice(0,-1)+t;
